@@ -2,38 +2,63 @@
 
 # LunchIt! User Stories
 
-A progressive web application (PWA) that takes the hassle out of deciding where to eat for lunch.  Simply shake your phone and Lunchit! will pick the best place to eat lunch based upon preferences and history. Easily access restaurant menu and location information.
+## Overview
 
-** Entities **
+### Elevator Pitch
 
-- Friends
-- Restaurant Preferences
-- Circle
-- Session
-- Restaurant
-- User
-- Roles
+A progressive web application (PWA) that takes the hassle out of deciding where to eat for lunch.  Simply shake your phone and LunchIt! will pick the best place to eat lunch based upon preferences and history. Easily access restaurant information and create reservations.
+
+### High level Process
+
+- Create circle - Create and mange your circle of lunch friends.
+- Discover - Integration with OpenTable makes it easy to discover the best places to eat. Built in maps make it easy to find the coolest new places.
+- Pick your favs - Build and manage your list of favorite restaurants.
+- Shake - Shake the app and start a session. Let LunchIt pick the best place to eat based upon your circle's preferences.
+- Rate - LaunchIt knows when its time to rate your dining experience.  Your preferences are saved to your favs for future LunchIt! sessions.
+
+## Create Circle.
+
+As a user, I often eat with the same group of people from work.  I want to define a circle of friends in order to make the process of deciding who is going to lunch easy. I desire an easy step by step process where I:
+
+- Provide a name for the circle, such as "Co-workers" or "Family".
+- Search for friends in the Friends Directory and once found, add them to the circle.
+
+See **Manage Circle**.  
+
+## Manage Circle
+
+As a user, I want to manage the friends in a specific Circle.  I want to see a list of my Circles. After selecting a circle, two lists appear:
+
+- A listing of existing friends that are in the selected circle.
+- An alphabetical listing of friends that are not in the circle.
+
+Checking a name in the circle, moves the name outside the circle.  Checking a name not in the circle, moves the name in the circle.
+
+## Select Circle as Default
+
+As a user, I want to designate a specific circle as my default in order to streamline the process of activating a LunchIt! session.
+
+## Search OpenTable Restaurant data
+
+As a user, I desire the ability to find a restaurant by:
+
+- zip (http://opentable.herokuapp.com/api/restaurants?zip=29466)
+- price (and zip) (http://opentable.herokuapp.com/api/restaurants?zip=29464&price=2)
+- name  (http://opentable.herokuapp.com/api/restaurants?name=red%20drum)
+
+List the search results that include the restaurant name, address, and price rating (1-4).  Selecting an item on the list displays an image of the restaurant, the location on a map, and restaurant name, address, and price. 
+
+Once I find a restaurant, I want the ability to create a reservation with OpenTable.  
 
 
-## Create friends circle.
 
-User provides name for circle.
-User adds/removes friends to circle.  See **Add Friends to circle**.  
+## Pick My Favs
 
-
-
-## Add Friends to circle
-
-User selects existing circle.
-User selects/de-selects friends in circle.
+As a user, I wish to build a list of my favorite restaurants.  I desire the ability to search for a restaurant and save it as a favorite.  
 
 ## Activate LunchIt! Session
 
-User selects to start a new LunchIt! Session.
-User has the option to picks friends individually or by circle.
-User selects/de-selects friends for current session.
-User shakes phone or selects the **LunchIt** button.
-System displays top 3 lunch destinations based upon friends preferences and lunch history. 
+As a user, I want the ability to easily decide on the best restaurant for lunch by simply shaking my phone or clicking a button.  The system should suggest the best option based upon my preferences, friends preferences and session history.  If I don't like that option, I can elect to view additional restaurant options.  I want to pick the best option and save it to my session.
 
 ## Display Restaurant Menu
 
@@ -41,12 +66,20 @@ System displays top 3 lunch destinations based upon friends preferences and lunc
 
 ## Check In to Restaurant
 
-## Rate Restaurant
+As a user, I want the app to know my current location and know when I am at the restaurant.  I want the application to prompt me to rate the restaurant and mark or it as a favorite or block the restaurant in my preferences.
 
-## Search OpenTable Restaurant data
+## Rate Restaurant During LunchIt! session
 
-As a user, I desire the ability to find a restaurant by:
+As a user, I want to rate a restaurant during my session by providing a rating of 1 through 4.  The system will save the rating for my current session and save the rating for the restaurant in my preferences.
 
-- price
-- name
-- zipcode
+## Block a Restaurant
+
+As a user, there are certain restaurants that I do not like.  I desire the ability to search for a restaurant and add it to preferences as a blocked restaurant.  
+
+## Mark Restaurant as Favorites
+
+As a user, while I am rating a restaurant, I can elect to save the restaurant as a favorite.  As a result the system will save the restaurant in my preferences.  
+
+## Send SMS to Friends
+
+As a user, I want the ability to easily tell my friends where to eat lunch.  After activating a LunchIt! session, I want the ability to send a text to all the friends listed in my LunchIt! session.  

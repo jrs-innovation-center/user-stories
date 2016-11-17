@@ -2,6 +2,35 @@
 
 # LunchIt Data
 
+## My Restaurant Preferences
+
+- My Restaurant Preferences ID
+- Restaurants
+  - Restaurant ID
+  - Preference Type (Favorite or Blocked)
+  - Rating (1-4)
+
+## Circle
+
+- Circle ID
+- User ID
+- Is Default?
+- Friends
+  - User ID
+
+## Session
+
+- Session ID
+- Circle ID
+- Friends
+  - Friend ID
+- Session Date/time
+- LunchIt Recommendations
+  - Restaurant ID
+  - LunchIt Recommended Restaurant Rank (1-5)
+  - Selected Restaurant (true)
+  - Is Checked In? (True/False)
+
 ## Restaurant Data
 
 - Restaurant ID
@@ -19,19 +48,8 @@
 - Image URL
 - Reservation URL
 
-
-## User Data
+## Friends Directory Data
 
 - User ID
 - Name
 - Phone
--
-
-
-## Restaurant Check-In Data
-
-- Restaurant Check In ID
-- Restaurant ID
-- User ID
-- Date / Time
-- Rating (1-4)
