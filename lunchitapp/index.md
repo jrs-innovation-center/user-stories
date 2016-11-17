@@ -46,7 +46,7 @@ As a user, I desire the ability to find a restaurant by:
 - price (and zip) (http://opentable.herokuapp.com/api/restaurants?zip=29464&price=2)
 - name  (http://opentable.herokuapp.com/api/restaurants?name=red%20drum)
 
-List the search results that include the restaurant name, address, and price rating (1-4).  Selecting an item on the list displays an image of the restaurant, the location on a map, and restaurant name, address, and price. 
+List the search results that include the restaurant name, address, and price rating (1-4).  Selecting an item on the list displays an image of the restaurant, the location on a map, and restaurant name, address, and price.
 
 Once I find a restaurant, I want the ability to create a reservation with OpenTable.  
 

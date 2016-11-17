@@ -8,7 +8,7 @@ Below is a listing of **user stories**, grouped by application.  User stories ar
 
 - [Pet Health Record](/pet)
 - [ScheduleHouse](/schedulehouse)
-- [LunchIt!](/lunchit)
+- [LunchIt!](/lunchitapp)
 - [Peer2Group](/peer2group)
 
 ## Final Project FAQ
