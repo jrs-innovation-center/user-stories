@@ -9,7 +9,7 @@ Below is a listing of **user stories**, grouped by application.  User stories ar
 - [Pet Health Record](/pet)
 - [ScheduleHouse](/schedulehouse)
 - [LunchIt!](/lunchit)
-- [Goodtimes](/goodtimes)
+- [Peer2Group](/peer2group)
 
 ## Other Ideas
 

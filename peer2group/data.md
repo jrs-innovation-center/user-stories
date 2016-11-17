@@ -1,10 +1,15 @@
-[Home](/)  |  [Data](/goodtimes/data)
+[Home](/) | [User Stories](/peer2group/)
 
-# Goodtimes User Stories
+# Peer2Group Data
 
+## Booking Data
 
-## Overview
-A progressive web application (PWA) that enables recreational service industries to drive revenue via a peer-to-peer marketing and sales model. P2P encourages customers to engage other customers by advocating a product or service to friends or associates. A customer is incentivised with discounts when friends and associates sign up for a group recreational activity. The higher a customer is on the "friend pyramid" the greater the discount percentage.  The discount is multiplied by the number of friends they recruit on the activity.
+Each booking item represents a single customer's booking or reservation on a specific day and time for a specific group activity such as rock climbing or paddle boarding.
+As part of a booking the customer can indicate whether they were referred by a friend.  
+
+A _Booking Pyramid_ is formed by creating a hierarchy of the booking data.  The **P2P Customers Friend ID** field/column/key/property designates whether the customer was referred by a friend. If so this field holds the friend's customer ID.    
+
+** Booking Pyramid Example **
 
 ```
 Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - $80.00USD)
@@ -18,35 +23,39 @@ Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - 
             \___ Sumir (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
 ```
 
-## Display Activity Details
-
-## Book Activity
-
-
-
-
-
-# Goodtimes Data
-
-## Booking Data
-
-Track the booking information for a customer for an activity on a specific day and time. Indicates whether the customer is the "leader" (Is P2P Customer Leader?). Indicates if the customer was recruited by a parent customer (P2P Parent Customer ID).  
-
 - Activity ID
 - Booking Start Date and Time
 - Customer ID
-- Is P2P Customer Leader? (True/False)
-- P2P Parent Customer ID
+- Is P2P Customer Leader? (True/False) - customer is the "leader" and eligible for the top discount.
+- P2P Customers Friend ID - Indicates the customer was recruited by a friend (P2P Customers Friend ID).
 - Booking Date
 - Booking Time
 - Price
   - Price Type (Adult/Child/Senior)
   - Price Amount
 
+## Activity Schedule Data
+
+Tracks the date, time, and availablity of when the activity is available.
+
+- Schedule ID
+- Activity ID
+- Activity Name
+- Location Name
+- Date and Time
+- Openings Available?
+- Total Number of Bookings
+
+
 ## Activity Data
 
 - Activity ID
 - Activity Name
+- Duration in Hours
+- Location Name
+  - Mapping waypoint
+    - Latitude
+    - Longitude
 - Prices
   - Price Type (Adult/Child/Senior)
   - Price Amount  
@@ -155,4 +164,5 @@ Track the booking information for a customer for an activity on a specific day a
 ## Customer Bio Data
 
 - Name
+- Birthdate
 - Address
