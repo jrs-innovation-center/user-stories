@@ -22,30 +22,25 @@ Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - 
             \___ Sara (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
             \___ Sumir (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
 ```
-
+- Booking Item ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Activity ID
-- Booking Start Date and Time
+- Schedule ID
+- Booking DateTime - The date and time the customer booked the activity.
 - Customer ID
 - Is P2P Customer Leader? (True/False) - customer is the "leader" and eligible for the top discount.
 - P2P Customers Friend ID - Indicates the customer was recruited by a friend (P2P Customers Friend ID).
-- Booking Date
-- Booking Time
 - Price
   - Price Type (Adult/Child/Senior)
   - Price Amount
 
 ## Activity Schedule Data
 
-Tracks the date, time, and availablity of when the activity is available.
+Tracks the date, time, and availability of when the activity is available.
 
 - Schedule ID
 - Activity ID
-- Activity Name
-- Location Name
-- Date and Time
-- Openings Available?
-- Total Number of Bookings
-
+- Activity Start DateTime
+- Openings Available? (True/False)
 
 ## Activity Data
 

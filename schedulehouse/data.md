@@ -6,7 +6,8 @@
 
 The data elements below represent details for a given property, such as a house. This information is displayed on the Property Details page.
 
-  - Property ID / MLS Number
+  - Property ID  - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+  - MLS Number - a business/alternate key for the property.
   - Description
   - Pictures
   - Square Footage
@@ -33,13 +34,13 @@ The data elements below represent details for a given property, such as a house.
 
 The data elements below represent the data elements for a single showing.  This data is used to schedule a showing and obtain feedback from the agent and buyer on the property.  Showing ID is system generated.
 
-  - Showing ID
-  - Real Estate Agent
-  - Buyer
-  - Schedule Date
+  - Showing ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
   - Property ID
-  - Showing Start Time
-  - Showing End Time
+  - Agent ID
+  - Buyer ID
+  - Schedule Date
+  - Showing Start DateTime
+  - Showing End DateTime
   - Status (Buyer Requests Showing, Agent Scheduled)
   - Feedback
     - Buyer Interest Rating
@@ -51,21 +52,20 @@ The data elements below represent the data elements for a single showing.  This 
 
 The Buyer data elements represent a single buyer and any related agents.  Biographical data provided during the signup process. Buyer ID is system generated.
 
-  - Biographical
-    - Buyer ID
-    - First name
-    - Last name
-    - Current address
-    - Cell phone
-  - Agents
-    - Agent ID
+- Buyer ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+- First name
+- Last name
+- Current address
+- Cell phone
+- Agents - A collection of agents associated with the buyer.
+  - Agent ID
 
-## Agent 
+## Agent
 
 The Agent data elements represent a single agent in the system.  Data provided during the signup process. Agent ID is system generated.
 
-  - Agent ID
-  - First name
-  - Last name
-  - Current address
-  - Cell phone
+- Agent ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+- First name
+- Last name
+- Current address
+- Cell phone

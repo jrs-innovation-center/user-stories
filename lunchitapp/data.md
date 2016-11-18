@@ -4,15 +4,15 @@
 
 ## My Restaurant Preferences
 
-- My Restaurant Preferences ID
+- My Restaurant Preferences ID  - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Restaurants
-  - Restaurant ID
+  - Restaurant ID  
   - Preference Type (Favorite or Blocked)
   - Rating (1-4)
 
 ## Circle
 
-- Circle ID
+- Circle ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - User ID
 - Is Default?
 - Friends
@@ -20,7 +20,7 @@
 
 ## Session
 
-- Session ID
+- Session ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Circle ID
 - Friends
   - Friend ID
@@ -30,14 +30,14 @@
     - Friend vote
       - Friend ID
       - Vote (+1, -1)
-      - Comment 
+      - Comment
   - LunchIt Recommended Restaurant Rank (1-5)
   - Selected Restaurant (true)
   - Is Checked In? (True/False)
 
 ## Restaurant Data
 
-- Restaurant ID
+- Restaurant ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - OpenTable ID
 - Name
 - Address

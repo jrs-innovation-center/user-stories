@@ -2,13 +2,17 @@
 
 # Pet Health Record Data
 
-## Owner and Pet Biographical Data
+## Owner Biographical Data
 
-- Owner ID
+- Owner ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Owner Name
 - Owner Address
 - Owner Phone
-- Pets
+
+## Pet Biographical Data
+
+  - Pet ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+  - Owner ID
   - Pet Name
   - Pet Date of Birth
   - Pet Breed
@@ -21,6 +25,7 @@
 
 As a veterinarian, I want to update a pet's vaccination record with the following information:
 
+- Pet ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Vaccination Date
 - Age at vaccination in either Weeks or Years
 - Vaccination (Canine)
@@ -46,6 +51,8 @@ As a veterinarian, I want to update a pet's vaccination record with the followin
 
 As a veterinarian, I want to update a pet's lab tests with the following information:
 
+- Lab Test ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+- Pet ID
 - Date
 - Lab Test Type (Heartworm, Leukemia/FIV, Lyme Disease, Deworming)
 - Test Result (Positive or Negative)
@@ -55,7 +62,8 @@ As a veterinarian, I want to update a pet's lab tests with the following informa
 ## Medical and Surgical History Data
 
 As a veterinarian, I want to update a pet's medical and surgical history with the following information:
-
+- History ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+- Pet ID
 - Date
 - Comments
 
@@ -63,6 +71,8 @@ As a veterinarian, I want to update a pet's medical and surgical history with th
 
 As a veterinarian, I want to update a pet's rabies tag information:
 
+- Rabies Tag ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
+- Pet ID
 - Date
 - Tag Number
 - Comments
