@@ -50,8 +50,6 @@ List the search results that include the restaurant name, address, and price rat
 
 Once I find a restaurant, I want the ability to create a reservation with OpenTable.  
 
-
-
 ## Pick My Favs
 
 As a user, I wish to build a list of my favorite restaurants.  I desire the ability to search for a restaurant and save it as a favorite.  
@@ -59,10 +57,6 @@ As a user, I wish to build a list of my favorite restaurants.  I desire the abil
 ## Activate LunchIt! Session
 
 As a user, I want the ability to easily decide on the best restaurant for lunch by simply shaking my phone or clicking a button.  The system should suggest the best option based upon my preferences, friends preferences and session history.  If I don't like that option, I can elect to view additional restaurant options.  I want to pick the best option and save it to my session.
-
-## Display Restaurant Menu
-
-## Display Restaurant location
 
 ## Check In to Restaurant
 
@@ -83,3 +77,7 @@ As a user, while I am rating a restaurant, I can elect to save the restaurant as
 ## Send SMS to Friends
 
 As a user, I want the ability to easily tell my friends where to eat lunch.  After activating a LunchIt! session, I want the ability to send a text to all the friends listed in my LunchIt! session.  
+
+## Up-vote Restaurant within LunchIt! session
+
+As a friend who is in a circle, I want the ability to open the current LunchIt! session that I am associated with and up-vote or down-vote a LunchIt! recommended restaurant and optionally provide a related comment.

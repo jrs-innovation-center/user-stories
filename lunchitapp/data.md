@@ -27,6 +27,10 @@
 - Session Date/time
 - LunchIt Recommendations
   - Restaurant ID
+    - Friend vote
+      - Friend ID
+      - Vote (+1, -1)
+      - Comment 
   - LunchIt Recommended Restaurant Rank (1-5)
   - Selected Restaurant (true)
   - Is Checked In? (True/False)
