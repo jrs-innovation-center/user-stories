@@ -10,39 +10,43 @@ A website that allows users to post their top 5 favorite things and allows frien
 
 ## View Categories
 
-As a user (visitor or user) I want to browse the lists by their list category such as:
+As a visitor or authenticated user, I want to browse the lists by their list category such as:
 
 - Music
 - Movies
 - Books
 - Top Relationship fails
 
-Once I select a category, I am directed to the **Lists** page where I see a list of lists.  How meta!
+As a visitor or authenticated user, I am directed to the **Lists** page where I see a list of lists.  How meta!
 
 ## Display Lists
 
-As a user, I want to view a list of all the lists for a specific category.  Each item in the list should display the following:
+As a visitor or authenticated user, I want to view a list of all the lists for a specific category.  Each item in the list should display the following:
 
 - List Name (Ex: Top 5 Beatles Albums)
 - List Description (Ex: The definitive list of the best 5 Beatles Albums.  Let the debate begin!)
 
 Once I select a list, I am directed to the **Lists Items** page.
 
+## Create List
+
+As a Creator, I want the ability to create a My 5 list including providing a name, category and description for a list, include the my 5 list items, as well as, a rank for each item.  
+
 ## Create List Blog Post
 
-As a creator of a list, I want the ability to create a blog post in order to provide my thoughts on how I came up with the items on a given list.
+As a Creator, I want the ability to create and associate a blog post to a list in order to provide my thoughts on how I came up with the items on a given list.
 
 ## Create Blog Post comments
 
-As a user, I want the ability to comment on a given blog post.  
+As an authenticated user, I want the ability to comment on a given blog post.  
 
 ## Vote on Blog Post Comments
 
-As a user I want the ability to provide either an up vote (+1) or down vote (-1) for a given blog post comment.
+As an authenticated user who did not create a list, I want the ability to provide either an up vote (+1) or down vote (-1) for a given blog post comment.
 
 ## Display List Items
 
-As a user, I want to view all the list items for a specific list.  Each item in the list should display the following:
+As a user or visitor, I want to view all the list items for a specific list.  Each item in the list should display the following:
 
 - List Item Name (Ex: Magical Mystery Tour)
 - List Item Creator Rank
@@ -50,4 +54,19 @@ As a user, I want to view all the list items for a specific list.  Each item in 
 
 ## Vote on List Item
 
-As a user who did not create a list, I want the ability to provide either an up vote (+1) or down vote (-1) for an item on the **Lists Items** page.
+As an authenticated user who did not create a list, I want the ability to provide either an up vote (+1) or down vote (-1) for an item on the **Lists Items** page.
+
+## Sign Up
+
+As a potential user of the system, I need a way to sign up and provide my personal details.  
+
+## Sign In
+
+As a user, I need a way to sign into the system so that I can access my relevant information.  A user who is not signed in is considered a visitor.  
+
+## Distinguish Roles
+
+As an administrator of the system, I need to designate users into one of the roles. Only an administrator can place a user in a role.
+
+- Creator
+- Authenticated user

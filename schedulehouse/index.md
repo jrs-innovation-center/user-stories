@@ -18,7 +18,7 @@ As a user, I want to search my MLS listings in the following ways:
   - Number of Bedrooms
   - Number of Bathrooms
 
-Once a single property is selected, display the property based on the current user's role. See **Display Property Details (By Agent)** and Display Property Details (By Buyer).  
+Once a single property is selected, display the property details based on the current user's role. See **Display Property Details (By Agent)** and **Display Property Details (By Buyer)**.  
 
 ## Sign Up
 
