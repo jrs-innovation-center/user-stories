@@ -4,7 +4,7 @@
 
 ## Booking Data
 
-Each booking item represents a single customer's booking or reservation on a specific day and time for a specific group activity such as rock climbing or paddle boarding.
+Each booking item represents a single customer's booking (reservation) for a specific date and time for a specific group activity such as rock climbing or paddle boarding.
 As part of a booking the customer can indicate whether they were referred by a friend.  
 
 A _Booking Pyramid_ is formed by creating a hierarchy of the booking data.  The **P2P Customers Friend ID** field/column/key/property designates whether the customer was referred by a friend. If so this field holds the friend's customer ID.    
@@ -22,13 +22,13 @@ Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - 
             \___ Sara (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
             \___ Sumir (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
 ```
-- Booking Item ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
-- Activity ID
-- Schedule ID
+- Booking Item ID - Primary Key. Represented as either an `_id` key in CouchDB or `ID` table column in a MySQL database.
+- Activity ID - See Activity Data.
+- Schedule ID - See Activity Schedule Data.
 - Booking DateTime - The date and time the customer booked the activity.
 - Customer ID
 - Is P2P Customer Leader? (True/False) - customer is the "leader" and eligible for the top discount.
-- P2P Customers Friend ID - Indicates the customer was recruited by a friend (P2P Customers Friend ID).
+- P2P Customer's Friend ID - Indicates the customer was recruited by a friend (P2P Customer's Friend ID).  Use this data to recursively build the Booking Pyramid hierarchy.
 - Price
   - Price Type (Adult/Child/Senior)
   - Price Amount
@@ -37,14 +37,14 @@ Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - 
 
 Tracks the date, time, and availability of when the activity is available.
 
-- Schedule ID
-- Activity ID
+- Schedule ID  - Primary Key. Represented as either an `_id` key in CouchDB or `ID` table column in a MySQL database.
+- Activity ID - See Activity Data.
 - Activity Start DateTime
 - Openings Available? (True/False)
 
 ## Activity Data
 
-- Activity ID
+- Activity ID - Primary Key. Represented as either an `_id` key in CouchDB or `ID` table column in a MySQL database.
 - Activity Name
 - Duration in Hours
 - Location Name
@@ -84,7 +84,6 @@ Tracks the date, time, and availability of when the activity is available.
 - Inclusions
 - Exclusions
 - Cancellation Policy
-
 
 ### Activity Data Example
 
