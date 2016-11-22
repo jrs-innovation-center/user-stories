@@ -59,25 +59,25 @@ As a realtor, I need to:
 
 ##  Display Property Details (By Agent)
 
-As a real estate agent, I want to view the following public _and private_.
+As a real estate agent, I want to view the public _and private_ details for a specific property.
 
 See [Property Details Data Elements](data#property-details).
 
 ##  Display Property Details (By Buyer)
 
-As a potential home buyer, I want to view the following public details for a specific property.
+As a potential home buyer, I want to view the public details for a specific property.
 
 See [Property Details Data Elements](data#property-details).
 
 ## Schedule Showing by Agent
 
-As a real estate agent, I want to schedule a showing of a property from the **Property Details Page**. (See **Display Property Details By Agent**) Scheduling involves a real estate agent selecting a buyer, selecting a schedule date, and selecting available start and end times for the property.
+As a real estate agent, I want to schedule a showing of a property from the **Property Details Page** (See **Display Property Details By Agent**). Scheduling involves a real estate agent selecting a buyer, selecting a schedule date, and selecting available start and end times for the property.
 
 See [Showing Data Elements](data#showing).
 
 ## Request Showing by Buyer
 
-As a potential home buyer, I want to request a showing of a property from the property details page. (See **Display Property Details By Seller**)  Requesting involves selecting a date, reviewing available times for the property, and selecting an available start and end time.
+As a potential home buyer, I want to request a showing of a property from the property details page (See **Display Property Details By Buyer**).  Requesting involves selecting a date, reviewing available times for the property, and selecting an available start and end time.
 
 See [Showing Data Elements](data#showing).
 
@@ -87,19 +87,19 @@ As an authenticated user, while I'm viewing the details of a specific property, 
 
 ## Search Buyers By Last Name
 
-As a real estate agent, I want the ability to search though my buyers by Last name.
+As a real estate agent, I want the ability to search buyers by Last name.
 
 Once selected, **Display Buyer**.  
 
-## Search Buyers from A to Z
+## Browse Buyers from A to Z
 
-As a real estate agent, I want the ability to browse though my buyers from A to Z.
+As a real estate agent, I want the ability to browse buyers by last name.
 
 Once selected, **Display Buyer**.
 
 ## Display Buyer
 
-As a real estate agent, I need a **Buyer Details Page** to view the details on an individual buyers .
+As a real estate agent, I need a **Buyer Details Page** to view the details on an individual buyers.
 
 See [Buyer Elements](data#buyer).
 
@@ -116,13 +116,13 @@ See [Showing Data Elements](data#showing).
 
 Selecting a showing on the calendar provides the following options:
 
-  - Navigating to the **Buyer Details Page**
-  - Navigating to the **Property Details Page**
-  - Filter Calendar for Buyer's Showings
-  - Filter Calendar for Property's Showings
-  - Navigate to the Realtor's **Daily Showing Schedule Page**.
-  - Navigate to the Buyer's **Daily Showing Schedule Page**.
-  - Navigate to the Property's **Daily Showing Schedule Page**.
+  - Navigate to the **Buyer Details Page**
+  - Navigate to the **Property Details Page**
+  - **Filter Calendar for Buyer's Showings**
+  - **Filter Calendar for Property's Showings**
+  - Navigate to the Realtor's **Daily Showing Schedule Page**
+  - Navigate to the Buyer's **Daily Showing Schedule Page**
+  - Navigate to the Property's **Daily Showing Schedule Page**
 
 ## Filter Calendar for Buyer's Showings
 
@@ -139,11 +139,10 @@ Selecting a showing on the calendar provides the following options:
 
   - Navigate to the **Buyer Details Page**
   - Navigate to the **Property Details Page**
-  - Filter Calendar for Buyer's Showings
-  - Filter Calendar for Property's Showings
-  - Navigate to the Realtor's **Daily Showing Schedule Page**.
-  - Navigate to the Buyer's **Daily Showing Schedule Page**.
-  - Navigate to the Property's **Daily Showing Schedule Page**.
+  - **Filter Calendar for Property's Showings**
+  - Navigate to the Realtor's **Daily Showing Schedule Page**
+  - Navigate to the Buyer's **Daily Showing Schedule Page**
+  - Navigate to the Property's **Daily Showing Schedule Page**
 
 ## Filter Calendar for Property's Showings
 
@@ -158,13 +157,12 @@ See [Showing Data Elements](data#showing).
 
 Selecting a showing on the calendar provides the following options:
 
-  - Navigate to the **Buyer Details Page**.
-  - Navigate to the **Property Details Page**.
-  - Filter Calendar for Buyer's Showings.
-  - Filter Calendar for Property's Showings.
-  - Navigate to the Realtor's **Daily Showing Schedule Page**.
-  - Navigate to the Buyer's **Daily Showing Schedule Page**.
-  - Navigate to the Property's **Daily Showing Schedule Page**.
+  - Navigate to the **Buyer Details Page**
+  - Navigate to the **Property Details Page**
+  - **Filter Calendar for Buyer's Showings**
+  - Navigate to the Realtor's **Daily Showing Schedule Page**
+  - Navigate to the Buyer's **Daily Showing Schedule Page**
+  - Navigate to the Property's **Daily Showing Schedule Page**
 
 ## Display Realtor Showing Schedule for a Specific Day (Daily Showing Schedule Page)
 
@@ -199,11 +197,11 @@ Selecting an item on the Showing Schedule provides the user with the following o
 
 ## Map Property (Property Details Page)
 
-As an authenticated user of the system, when I am viewing property details on the **Property Details Page**, I desire the need to see where a specific property is located on a map.  
+As an authenticated user of the system, when I am viewing property details on the **Property Details Page**, I desire the need to see where a specific property is located on a map so that I can drive to the property.
 
 ## Map Properties (Map Properties Page)
 
-As an authenticated user of the system, when I am looking at my showing schedule, I desire the need to see where a specific set of properties are located on a map.  
+As an authenticated user of the system, when I am looking at my showing schedule, I desire the need to see where a specific set of properties are located on a map so that I can drive to the verious properties.
 
 ## Reveal Mapped Property Details (Map Properties Page)
 
@@ -217,9 +215,9 @@ Selecting a specific mapped property on the map reveals the following property d
 
 ## Rate houses
 
-As an authenticated user of the system, I need the ability rate housing during or after the designated showing start time.  I would prefer to provide my ratings on the **Property Details Page**.  
+As an authenticated user of the system, I need the ability rate a house during or after the designated showing start time.  I would prefer to provide my ratings on the **Property Details Page**.  
 
-Do not allow me to provide a rating before the designated showing start time.
+Do not allow me to provide a rating until the designated showing start time.
 
 As a potential home buyer, I need the ability to provide the following feedback on a property:
 
@@ -231,18 +229,16 @@ As an agent, I need the ability to provide the following feedback on a property:
 
   - Agent Price Opinion Rating
 
-## SMS - Notify Agent of Buyer Interest in Property
-
-As a potential home buyer, I wish to let my agent
-
-## SMS - Notify Buyer of Schedule Change
-
 ## SMS - Buyer Sends Link to Property (Property Details Page) to Agent
 
+As a potential home buyer, I wish to let my agent know I am interested in a particular home so we can have a conversation by text messaging one another.
+
 ## SMS - Agent Sends Link to Property (Property Details Page) to Buyer
+
+As an agent, I want to send a text that includes a link to the Property Details Page so the buyer can review the property.
 
 ## Adjust Agent Showing Schedule
 
 As a realtor, I need to adjust my showing schedule for a specific day on a **Daily Showing Schedule Page**. I'd like to reorder my showings by dragging items above or below one another.  
 
-Once saved, **SMS - Notify Buyer of Schedule Change**.
+Once saved, SMS Buyer to notify of schedule change.
