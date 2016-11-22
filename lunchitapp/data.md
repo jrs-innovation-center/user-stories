@@ -1,4 +1,4 @@
-[Home](/) | [User Stories](/lunchit/)
+[Home](/) | [User Stories](/lunchitapp/)
 
 # LunchIt Data
 
