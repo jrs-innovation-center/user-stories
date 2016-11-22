@@ -10,10 +10,10 @@ A progressive web application (PWA) that takes the hassle out of deciding where 
 
 ### High level Process
 
-- Create circle - Create and mange your circle of lunch friends.
+- Create Circle - Create and mange your circle of lunch friends.
 - Discover - Integration with OpenTable makes it easy to discover the best places to eat. Built in maps make it easy to find the coolest new places.
 - Pick your favs - Build and manage your list of favorite restaurants.
-- Shake - Shake the app and start a session. Let LunchIt pick the best place to eat based upon your circle's preferences.
+- Shake - Shake the app to start a session. Let LunchIt! pick the best place to eat based upon your circle's preferences.
 - Rate - LaunchIt knows when its time to rate your dining experience.  Your preferences are saved to your favs for future LunchIt! sessions.
 
 ## Create Circle.
@@ -48,7 +48,7 @@ As a user, I desire the ability to find a restaurant by:
 
 List the search results that include the restaurant name, address, and price rating (1-4).  Selecting an item on the list displays an image of the restaurant, the location on a map, and restaurant name, address, and price.
 
-Once I find a restaurant, I want the ability to create a reservation with OpenTable.  
+Once I find a restaurant, I want the ability to create a reservation using OpenTable.  
 
 ## Pick My Favs
 
@@ -60,19 +60,23 @@ As a user, I want the ability to easily decide on the best restaurant for lunch 
 
 ## Check In to Restaurant
 
-As a user, I want the app to know my current location and know when I am at the restaurant.  I want the application to prompt me to rate the restaurant and mark or it as a favorite or block the restaurant in my preferences.
+As a user, I want the app to know my current location and know when I am at the restaurant.  I want the application to prompt me to:
+
+- Rate the restaurant
+- Mark or it as a favorite in my preferences
+- Block the restaurant in my preferences
 
 ## Rate Restaurant During LunchIt! session
 
 As a user, I want to rate a restaurant during my session by providing a rating of 1 through 4.  The system will save the rating for my current session and save the rating for the restaurant in my preferences.
 
+## Mark Restaurant as Favorites
+
+As a user, while I am rating a restaurant, I can elect to save the restaurant as a favorite.  As a result the system will save the restaurant in my preferences.
+
 ## Block a Restaurant
 
 As a user, there are certain restaurants that I do not like.  I desire the ability to search for a restaurant and add it to preferences as a blocked restaurant.  
-
-## Mark Restaurant as Favorites
-
-As a user, while I am rating a restaurant, I can elect to save the restaurant as a favorite.  As a result the system will save the restaurant in my preferences.  
 
 ## Send SMS to Friends
 
