@@ -45,8 +45,8 @@ As a customer who has recruited friends, I want to be notified whenever a bookin
 
 ## View My Booking Pyramid
 
-As a customer, I want to see all by P2P activity for a given activity.  I should only be able select an activity that I am associated with.  The display of the booking pyramid should a hierarchical view of all my friends and their friends who have signed up.  I also want to see my discount percentage and my total savings.  
+As a customer, I want to see all my P2P activity for a given activity.  I should only be able select an activity that I am associated with.  The display of the booking pyramid should contain a hierarchical view of all my friends and their friends who have signed up.  I also want to see my discount percentage and my total savings.  
 
 ## View a Booking Pyramid
 
-As an admin, I wat to see all the P2P activity for any selected activity.  The display of the booking pyramid should a hierarchical view of all customers who have signed up.  I also want to see my discount percentages and total savings by persons.  I want to see a summary of the total discount given for the entire activity versus full retail cost.
+As an admin, I want to see all the P2P activity for any selected activity.  The display of the booking pyramid should contain a hierarchical view of all customers who have signed up.  I also want to see my discount percentages and total savings by person. I want to see a summary of the total discount given for the entire activity versus full retail cost.
