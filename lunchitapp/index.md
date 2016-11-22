@@ -16,7 +16,7 @@ A progressive web application (PWA) that takes the hassle out of deciding where 
 - Shake - Shake the app to start a session. Let LunchIt! pick the best place to eat based upon your circle's preferences.
 - Rate - LaunchIt knows when its time to rate your dining experience.  Your preferences are saved to your favs for future LunchIt! sessions.
 
-## Create Circle.
+## Create Circle
 
 As a user, I often eat with the same group of people from work.  I want to define a circle of friends in order to make the process of deciding who is going to lunch easy. I desire an easy step by step process where I:
 

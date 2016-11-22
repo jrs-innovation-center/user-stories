@@ -32,3 +32,16 @@ No.  You are free to create whatever you like.  The advantage of using a predefi
 
 - Students who wish to work on a predefined user story will pick a number out of a hat.  Numbers range from 1 to the total number of students in the class/cohort.  The student with the lowest number get's first pick of the predefined user story.
 - The same predefined user story can not be worked on by more than 3 students.  
+
+## Final projects
+
+- Alex () -
+- Andrea () -
+- Cam () -
+- Chris () -
+- Derek () -
+- Jared () -
+- Joe () -
+- Joshua () -
+- Kendra () - 
+- Matt () -
