@@ -23,7 +23,7 @@ Activity: SUP Eco Tour (Costs: Adult - $120.00USD, Child - $120.00USD, Senior - 
             \___ Sumir (Friend) (Discount Pct: 0%, Peer Count: 0, Total Discount: 0%)  
 ```
 - Booking Item ID - Primary Key. Represented as either an `_id` key in CouchDB or `ID` table column in a MySQL database.
-- Activity ID - See Activity Data.
+- Activity ID - See Activity Data which includes pricing structure and discounts for the Booking Pyramid.
 - Schedule ID - See Activity Schedule Data.
 - Booking DateTime - The date and time the customer booked the activity.
 - Customer ID
@@ -54,8 +54,8 @@ Tracks the date, time, and availability of when the activity is available.
 - Prices
   - Price Type (Adult/Child/Senior)
   - Price Amount  
-- Booking Minimum
-- Booking Maximum
+- Booking Minimum - The minimum amount of customer required before activity is a "go"
+- Booking Maximum - The maximum amount of customers allowed on the activity.
 - Discount Structure
   - Leader
     - Discount Pct
