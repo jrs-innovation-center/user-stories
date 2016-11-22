@@ -38,10 +38,10 @@ Confirming my order adds my customer information into the system as well as my b
 
 As a customer who has recruited friends, I want to be notified whenever a booking occurs and I have been named as the customer's friend.  As part of the notification, include the following information:
 
-- Friend's Name
-- Discount Percentage Applied
-- Total Savings
-- Current Discounted Cost
+  - Friend's Name
+  - Discount Percentage Applied
+  - Total Savings
+  - Current Discounted Cost
 
 ## View My Booking Pyramid
 
