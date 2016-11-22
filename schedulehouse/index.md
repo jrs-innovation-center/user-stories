@@ -83,7 +83,7 @@ See [Showing Data Elements](data#showing).
 
 ## Map Property
 
-As a user, while I'm viewing the details of a specific property, I want to see where a property is located on a map.  
+As an authenticated user, while I'm viewing the details of a specific property, I want to see where a property is located on a map.  
 
 ## Search Buyers By Last Name
 
@@ -105,7 +105,7 @@ See [Buyer Elements](data#buyer).
 
 ## Display Calendar for an Agent's Showings
 
-As a realtor, I want to see a calendar that displays my related showings for _all_ the properties for _all_ my buyers.  Each showing on the calendar should display:  
+As a real estate agent, I want to see a calendar that displays my related showings for _all_ the properties for _all_ my buyers.  Each showing on the calendar should display:  
 
   - Showing Start Time
   - Showing End Time
@@ -126,7 +126,7 @@ Selecting a showing on the calendar provides the following options:
 
 ## Filter Calendar for Buyer's Showings
 
-As a realtor, I want to see a specific buyer's schedule.  I want to see a calendar that displays _all_ the showings for a _specific_ buyer.  Each showing on the calendar should display:  
+As a real estate agent, I want to see a specific buyer's schedule.  I want to see a calendar that displays _all_ the showings for a _specific_ buyer.  Each showing on the calendar should display:  
 
   - Showing Start Time
   - Showing End Time
@@ -147,7 +147,7 @@ Selecting a showing on the calendar provides the following options:
 
 ## Filter Calendar for Property's Showings
 
-As a realtor, I want to see when a specific property is available for showing.  I want to see a calendar that displays all showings for a _specific_ property across all realtors.  Each showing on the calendar should display:  
+As a real estate agent, I want to see when a specific property is available for showing.  I want to see a calendar that displays all showings for a _specific_ property across all realtors.  Each showing on the calendar should display:  
 
   - Showing Start Time
   - Showing End Time
@@ -168,7 +168,7 @@ Selecting a showing on the calendar provides the following options:
 
 ## Display Realtor Showing Schedule for a Specific Day (Daily Showing Schedule Page)
 
-As a realtor, I want to see my showing schedule for a specific day on a **Daily Showing Schedule Page**.
+As a real estate agent, I want to see my showing schedule for a specific day on a **Daily Showing Schedule Page**.
 
 Selecting an item on the Showing Schedule provides the user with the following options:
 
@@ -179,7 +179,7 @@ Selecting an item on the Showing Schedule provides the user with the following o
 
 ## Display Buyer Showing Schedule for a Specific Day (Daily Showing Schedule Page)
 
-As a buyer, I want to see my showing schedule for a specific day on a **Daily Showing Schedule Page**.
+As a potential home buyer, I want to see my showing schedule for a specific day on a **Daily Showing Schedule Page**.
 
 Selecting an item on the Showing Schedule provides the user with the following options:
 
@@ -188,7 +188,7 @@ Selecting an item on the Showing Schedule provides the user with the following o
 
 ## Display Property Showing Schedule for a Specific Day (Daily Showing Schedule Page)
 
-As a realtor, I want to see the showing schedule for a specific property for a specific day on a **Daily Showing Schedule Page**.
+As a real estate agent, I want to see the showing schedule for a specific property for a specific day on a **Daily Showing Schedule Page**.
 
 Selecting an item on the Showing Schedule provides the user with the following options:
 
@@ -199,11 +199,11 @@ Selecting an item on the Showing Schedule provides the user with the following o
 
 ## Map Property (Property Details Page)
 
-As a user of the system, when I am viewing property details on the **Property Details Page**, I desire the need to see where a specific property is located on a map.  
+As an authenticated user of the system, when I am viewing property details on the **Property Details Page**, I desire the need to see where a specific property is located on a map.  
 
 ## Map Properties (Map Properties Page)
 
-As a user of the system, when I am looking at my showing schedule, I desire the need to see where a specific set of properties are located on a map.  
+As an authenticated user of the system, when I am looking at my showing schedule, I desire the need to see where a specific set of properties are located on a map.  
 
 ## Reveal Mapped Property Details (Map Properties Page)
 
@@ -217,11 +217,11 @@ Selecting a specific mapped property on the map reveals the following property d
 
 ## Rate houses
 
-As a realtor or buyer, I need the ability rate housing during or after the designated showing start time.  I would prefer to provide my ratings on the **Property Details Page**.  
+As an authenticated user of the system, I need the ability rate housing during or after the designated showing start time.  I would prefer to provide my ratings on the **Property Details Page**.  
 
 Do not allow me to provide a rating before the designated showing start time.
 
-As a buyer, I need the ability to provide the following feedback on a property:
+As a potential home buyer, I need the ability to provide the following feedback on a property:
 
   - Buyer Interest Rating
   - Overall Experience Rating
