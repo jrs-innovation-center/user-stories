@@ -61,25 +61,25 @@ As a realtor, I need to:
 
 As a real estate agent, I want to view the public _and private_ details for a specific property.
 
-See [Property Details Data Elements](data#property-details).
+See [Property Details Data Elements](/schedulehouse/data#property-details).
 
 ##  Display Property Details (By Buyer)
 
 As a potential home buyer, I want to view the public details for a specific property.
 
-See [Property Details Data Elements](data#property-details).
+See [Property Details Data Elements](/schedulehouse/data#property-details).
 
 ## Schedule Showing by Agent
 
 As a real estate agent, I want to schedule a showing of a property from the **Property Details Page** (See **Display Property Details By Agent**). Scheduling involves a real estate agent selecting a buyer, selecting a schedule date, and selecting available start and end times for the property.
 
-See [Showing Data Elements](data#showing).
+See [Showing Data Elements](/schedulehouse/data#showing).
 
 ## Request Showing by Buyer
 
 As a potential home buyer, I want to request a showing of a property from the property details page (See **Display Property Details By Buyer**).  Requesting involves selecting a date, reviewing available times for the property, and selecting an available start and end time.
 
-See [Showing Data Elements](data#showing).
+See [Showing Data Elements](/schedulehouse/data#showing).
 
 ## Map Property
 
@@ -101,7 +101,7 @@ Once selected, **Display Buyer**.
 
 As a real estate agent, I need a **Buyer Details Page** to view the details on an individual buyers.
 
-See [Buyer Elements](data#buyer).
+See [Buyer Elements](/schedulehouse/data#buyer).
 
 ## Display Calendar for an Agent's Showings
 
@@ -112,7 +112,7 @@ As a real estate agent, I want to see a calendar that displays my related showin
   - Property Street Address
   - Buyer Last Name
 
-See [Showing Data Elements](data#showing).
+See [Showing Data Elements](/schedulehouse/data#showing).
 
 Selecting a showing on the calendar provides the following options:
 
@@ -133,7 +133,7 @@ As a real estate agent, I want to see a specific buyer's schedule.  I want to se
   - Property Street Address
   - Buyer Last Name
 
-See [Showing Data Elements](data#showing).
+See [Showing Data Elements](/schedulehouse/data#showing).
 
 Selecting a showing on the calendar provides the following options:
 
@@ -153,7 +153,7 @@ As a real estate agent, I want to see when a specific property is available for 
   - Property Street Address
   - Buyer Last Name
 
-See [Showing Data Elements](data#showing).
+See [Showing Data Elements](/schedulehouse/data#showing).
 
 Selecting a showing on the calendar provides the following options:
 
