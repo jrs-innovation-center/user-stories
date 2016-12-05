@@ -53,15 +53,15 @@ As a veterinarian, I want to update a pet's lab tests.  See [Lab Test Data](/pet
 
 Lab tests, should be grouped and displayed by lab test type (Heartworm, Leukemia/FIV, Lyme Disease, Deworming).
 
-## Medical and Surgical History (400)
+## Medical and Surgical History
 
 As a veterinarian, I want to update a pet's medical and surgical history. See [Medical and Surgical History Data](/pet/data)
 
-## Rabies Tag Information (500)
+## Rabies Tag Information
 
 As a veterinarian, I want to update a pet's rabies tag info. See [Rabies Tag Data](/pet/data)
 
-## Veterinarian Blog (700)
+## Veterinarian Blog
 
 As a vet, I want to ensure pet owners are knowledgable about various pet health related topics throughout a pet's lifetime. I want to provide a blog to my customers about the following topics:
 
@@ -71,7 +71,7 @@ As a vet, I want to ensure pet owners are knowledgable about various pet health 
   - Parasite Control
   - Surgery
 
-## Blog Comments (701)
+## Blog Comments
 
 As a pet owner, I require the ability to add, edit and delete comments to various veterinarian Blog posts.  See **Veterinarian Blog**.  
 
