@@ -23,12 +23,12 @@
 - Session ID - Primary Key. Represented as either an `_id` key in CouchDB.  `ID` table column MySQL database.
 - Circle ID
 - Friends
-  - Friend ID
+  - User ID
 - Session Date/time
 - LunchIt Recommendations
   - Restaurant ID
     - Friend vote
-      - Friend ID
+      - User ID
       - Vote (+1, -1)
       - Comment
   - LunchIt Recommended Restaurant Rank (1-5)
